@@ -18,18 +18,18 @@ function Navbar() {
       </Logo>
 
       <Menu>
-        <a href="/">Model S</a>
-        <a href="/">Model 3</a>
-        <a href="/"> Model X</a>
-        <a href="/">Model Y</a>
-        <a href="/">Solar Roof</a>
-        <a href="/">Solar Panels</a>
-        <a href="/">Powerwall</a>
+        <a href="#">Model S</a>
+        <a href="#">Model 3</a>
+        <a href="#"> Model X</a>
+        <a href="#">Model Y</a>
+        <a href="#">Solar Roof</a>
+        <a href="#">Solar Panels</a>
+        <a href="#">Powerwall</a>
       </Menu>
       <RightMenu>
-        <a href="/">Shop</a>
-        <a href="/">Account</a>
-        <span href="/" onClick={showSideMenu}>Menu</span>
+        <a href="#">Shop</a>
+        <a href="#">Account</a>
+        <span href="#" onClick={showSideMenu}>Menu</span>
       </RightMenu>
        <SideMenu sidemenu={{sidemenu}}>
         <Close >
